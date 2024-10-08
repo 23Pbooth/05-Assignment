@@ -1,0 +1,103 @@
+
+body{
+    background-color:  rgba(153, 206, 62, 0.267);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0b0c0b;
+}
+main{
+    margin: 1rem;
+    padding: 1rem;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #0a3209;
+}
+.headerflex{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+ }
+header img{
+    max-width: 100%;
+    max-height: 10rem;
+}
+nav li{
+    padding: .5em;
+    display: inline-block;
+}
+h1, h2, h3{
+    text-shadow: rgb(176, 18, 12) 2px 2px 1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main ul, main ol {
+    padding: .5rem;
+    margin: .5rem;
+}
+a{
+    color: #2285b7;
+}
+a:hover{
+    color:rgb(27, 15, 80);
+}
+
+
+.welcome h2{
+    margin: 1em;
+}
+.welcome {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.services {
+    background-color: rgba(153, 206, 62, 0.267);
+    padding: 1em;
+    
+}
+.services p{
+    text-align: center;
+    padding: 1em;
+}
+.service_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service_item{
+   background-color: #a2c76b;
+   padding: 2rem;
+}
+
+
+.banner {
+    background-image: url(../images/banner.jpb.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    overflow: hidden;
+}
+footer{
+    background-color: #0a3209;
+    text-align: center;
+    padding: 1em;
+}
+
+@media(max-width: 700px){
+    .service_flex{
+        display: block;
+    }
+    .headerflex{
+        display: block;
+    }
+    .welcome h2{
+        font-size: 97%;
+    }
+    
+}

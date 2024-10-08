@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    list-style-type: none;
+    list-style-image: none;
+}
+nav a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
